@@ -1,0 +1,16 @@
+Package: MyOwnPackage
+Type: Package
+Title: How to make a package
+Version: 0.1.0
+Author: Susanna Casarini
+Maintainer: The package maintainer <susanna.casarini@gmail.com>
+Description: Simple functions, my first package
+Encoding: UTF-8
+Language: en-GB
+License: GPL(>=2)
+Depends: R (>= 4.0.0)
+Imports: devtools,dichromat,fields,ggplot2,stats,terra,viridis
+Suggests: knitr
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2024-12-18 12:23:04 UTC; SusannaCasarini
